@@ -1,0 +1,45 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<h1 id="title"> Rabbit Survery </h1>
+<p id="description"> A survery about rabbits </p>
+
+<label id="name-label"> Full in the fields </label>
+<form id="survey-form" method="GET" action=""> <br>
+  
+    <label id="name-label"> My name 
+      <input id="name" type="text" placeholder="My name" required name="name"/> </label>
+  <br> 
+  
+   <label id="email-label"> My email </label>
+   <input type="email" id="email" placeholder="my email adress" required email="email"/> <br>
+  
+  <label id="number-label"> My phone number </label>
+    <input type="number" placeholder="my phone number" min="0" max="9999999999" id="number" required number="number">
+   
+    
+    <h2> Select gender of your rabbit </h2>
+      <input type="radio" name="gender" value="buck" checked> Buck<br>
+  <input type="radio" name="gender" value="doe"> Doe<br> 
+    </input> </input>
+    
+    <h3> Select species of your rabbit </h3>
+    <select id="dropdown"> 
+      <option value="dwarf">Dwarf</option>
+         <option value="flemish">Flemish</option>
+            <option value="hollander">Hollander</option>
+                <option value="angora">Angora</option>
+      <option value="other">Other</option>
+    </select> <br>
+  <br>
+<h4> Select the bunality of your rabbit </h4>
+	
+<label for="timid">Timid</label> <input type="checkbox" name="timid" value="timid"></label>
+<label for="couragous">Couragous</label> <input type="checkbox" name="couragous" value="couragous"></label>
+<label for="affectionite">Affectionite</label> <input type="checkbox" name="affectionite" value="affectionite"></label>
+><br>
+  
+  
+  <h4> Enter addidtional text </h4>
+  <textarea> </textarea> <br>
+    <button id="submit">Submit</button>
+</form>
